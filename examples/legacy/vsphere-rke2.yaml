@@ -331,6 +331,8 @@ stringData:
         user = "${VSPHERE_USERNAME}"
         password = "${VSPHERE_PASSWORD}"
         datacenters = "${VSPHERE_DATACENTER}"
+        port = "443"
+        insecure-flag ="true"
 
         [Network]
         public-network = "${VSPHERE_NETWORK}"
